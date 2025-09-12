@@ -1,9 +1,8 @@
 # PackMate
 
-[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![Frontend](https://img.shields.io/badge/frontend-React-blue)](#)
 [![Backend](https://img.shields.io/badge/backend-Node.js-yellow)](#)
-[![Database](https://img.shields.io/badge/database-MongoDB-brightgreen)](#)
+[![Database](https://img.shields.io/badge/database-MySQL-brightgreen)](#)
 [![AI](https://img.shields.io/badge/AI-LangChain-orange)](#)
 
 PackMate is an **AI-powered travel and document assistant** that combines **document-based Q&A**, **image embeddings**, and **personalized trip planning**. Upload your travel documents or wardrobe images, and interact with a smart assistant that retrieves relevant information and gives recommendations using **LangChain** and **RAG (Retrieval-Augmented Generation)**.
@@ -22,7 +21,7 @@ PackMate is an **AI-powered travel and document assistant** that combines **docu
 ### Additional
 - Responsive **React frontend** using **Shadcn UI components** and TailwindCSS.
 - Scalable backend built with Node.js and Express.
-- Vector database for embeddings (MongoDB or MySQL based on deployment).
+- Vector database for embeddings using **MySQL**.
 - Multi-platform support for desktop and mobile.
 
 ---
@@ -33,7 +32,7 @@ PackMate is an **AI-powered travel and document assistant** that combines **docu
 | ------------- | --------------------------------------------- |
 | Frontend      | React, Tailwind CSS, Shadcn UI, Vite          |
 | Backend       | Node.js, Express.js                            |
-| Database      | MongoDB / MySQL (Sequelize optional)         |
+| Database      | MySQL (Sequelize ORM)                         |
 | Authentication| JWT (Access & Refresh Tokens)                |
 | AI/ML         | LangChain, OpenAI API (Embeddings + Chat)    |
 | Real-time     | Socket.io                                     |
@@ -59,4 +58,3 @@ PackMate is an **AI-powered travel and document assistant** that combines **docu
 ```bash
 git clone https://github.com/anshuuu680/PackMate-AI.git
 cd PackMate-AI
-
