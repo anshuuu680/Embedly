@@ -5,14 +5,13 @@
 [![Database](https://img.shields.io/badge/database-MySQL-brightgreen)](#)
 [![AI](https://img.shields.io/badge/AI-LangChain-orange)](#)
 
-PackMate is an **AI-powered travel and document assistant** that combines **document-based Q&A**, **image embeddings**, and **personalized trip planning**. Upload your travel documents or wardrobe images, and interact with a smart assistant that retrieves relevant information and gives recommendations using **LangChain** and **RAG (Retrieval-Augmented Generation)**.
+PackMate is an **AI-powered travel that combines **image embeddings**, and **personalized trip planning**. Upload your wardrobe images, and interact with a smart assistant that retrieves relevant information and gives recommendations using **LangChain** and **RAG (Retrieval-Augmented Generation)**.
 
 ---
 
 ## Features
 
 ### Core
-- **Document Upload & Q&A**: Upload PDFs, Word, or text files and ask questions about them.
 - **Image Embeddings & Wardrobe Management**: Upload wardrobe images and get outfit suggestions.
 - **Personalized Travel Assistant**: Generate packing lists and travel suggestions.
 - **Interactive Chat**: Real-time assistant responses powered by Socket.io.
